@@ -1,0 +1,4 @@
+---
+- get_url: url={{idea_download_url}} dest=/opt/{{idea_archive_name}}
+- unarchive: src=/opt/{{idea_archive_name}} dest=/opt/ copy=no
+- file: src=/opt/{{idea_dir}} dest=/opt/idea state=link

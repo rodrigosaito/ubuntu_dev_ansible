@@ -1,0 +1,10 @@
+---
+- hosts: 127.0.0.1
+  tasks:
+  roles:
+    - base
+    - chrome
+    - oracle-jdk
+    - maven3
+    - idea
+    - squirrel

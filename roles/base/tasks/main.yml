@@ -1,0 +1,17 @@
+---
+- name: install base packages
+  apt: name={{item}} update_cache=yes state=present
+  with_items:
+    - curl
+    - wget
+    - tmux
+    - vim
+    - python-pip
+    - unzip
+    - mysql-client
+    - libmysqlclient-dev
+    - mercurial
+    - mongodb-clients
+    - git
+    - gitg
+    - ssh

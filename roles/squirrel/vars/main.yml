@@ -1,0 +1,4 @@
+squirrel_download_url: http://downloads.sourceforge.net/project/squirrel-sql/1-stable/3.5.0-plainzip/squirrel-sql-3.5.0-standard.tar.gz?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fsquirrel-sql%2Ffiles%2F1-stable%2F3.5.0-plainzip%2F&ts=1376414666&use_mirror=ufpr
+squirrel_archive_name: squirrel-sql-3.5.0-standard.tar.gz
+squirrel_dir: squirrel-sql-3.5.0-standard
+mysql_driver_download_url: http://search.maven.org/remotecontent?filepath=mysql/mysql-connector-java/5.1.26/mysql-connector-java-5.1.26.jar

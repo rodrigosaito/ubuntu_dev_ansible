@@ -1,0 +1,5 @@
+---
+- get_url: url={{maven_download_url}} dest=/opt/{{maven_archive_name}}
+- unarchive: src=/opt/{{maven_archive_name}} dest=/opt/ copy=no
+- file: src=/opt/{{maven_dir}} dest=/opt/maven state=link
+- file: src=/opt/{{maven_dir}}/bin/mvn dest=/usr/bin/mvn state=link

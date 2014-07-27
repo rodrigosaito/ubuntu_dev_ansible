@@ -1,0 +1,5 @@
+---
+- apt_key: url=https://dl-ssl.google.com/linux/linux_signing_key.pub state=present
+- apt_repository: repo='deb http://dl.google.com/linux/chrome/deb stable main' state=present
+- apt: name={{item}} state=latest
+  with_items: [ libxss1, google-chrome-stable ]
