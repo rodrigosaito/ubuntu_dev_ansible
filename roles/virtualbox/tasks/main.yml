@@ -1,0 +1,4 @@
+---
+- apt_key: url={{virtualbox_key_url}} state=present
+- apt_repository: repo='deb http://download.virtualbox.org/virtualbox/debian trusty contrib' state=present
+- apt: name=virtualbox-4.3 update_cache=true state=latest
