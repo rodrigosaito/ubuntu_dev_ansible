@@ -1,0 +1,4 @@
+---
+- file: path=/opt/packages state=directory
+- get_url: url={{vagrant_package_url}} dest=/opt/packages/{{vagrant_package_name}}
+- apt: deb=/opt/packages{{vagrant_package_name}}

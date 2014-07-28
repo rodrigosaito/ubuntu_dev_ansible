@@ -1,0 +1,2 @@
+vagrant_package_url: https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3_x86_64.deb
+vagrant_package_name: vagrant_1.6.3_x86_64.deb
