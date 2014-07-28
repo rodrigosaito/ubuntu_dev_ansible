@@ -1,0 +1,5 @@
+---
+- apt_key: keyserver=keyserver.ubuntu.com id=EEA14886 state=present
+- apt_repository: repo='deb http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu trusty main' state=present
+- apt_repository: repo='deb-src http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu trusty main' state=present
+- apt: name=sublime-text-installer update_cache=yes state=present
