@@ -1,0 +1,4 @@
+---
+- apt_key: url=https://www.hipchat.com/keys/hipchat-linux.key state=present
+- apt_repository: repo='deb http://downloads.hipchat.com/linux/apt stable main' state=present
+- apt: name=hipchat state=latest
