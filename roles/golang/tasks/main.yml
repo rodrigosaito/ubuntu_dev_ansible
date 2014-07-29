@@ -1,0 +1,5 @@
+---
+- name: download go-lang
+  get_url: url={{golang_download_url}} dest=/usr/local/src
+
+- unarchive: src=/usr/local/src/{{golang_download_file}} dest=/usr/local/ copy=no
