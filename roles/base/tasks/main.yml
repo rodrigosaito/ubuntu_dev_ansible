@@ -17,3 +17,4 @@
     - ssh
     - zsh
     - aptitude
+    - nfs-kernel-server

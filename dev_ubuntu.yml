@@ -1,6 +1,8 @@
 ---
 - hosts: 127.0.0.1
   tasks:
+    - pip: name=awscli
+    - pip: name=fabric
   roles:
     - base
     - chrome
