@@ -18,3 +18,5 @@
     - zsh
     - aptitude
     - nfs-kernel-server
+    - pwgen
+
