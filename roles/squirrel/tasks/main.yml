@@ -3,3 +3,4 @@
 - unarchive: src=/opt/{{squirrel_archive_name}} dest=/opt/ copy=no
 - file: src=/opt/{{squirrel_dir}} dest=/opt/squirrel state=link
 - get_url: url={{mysql_driver_download_url}} dest=/opt/{{squirrel_dir}}/lib
+- template: src=squirrel-sql.sh dest=/opt/{{squirrel_dir}} mode=0755
